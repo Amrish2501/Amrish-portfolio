@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import About from "./components/About.tsx";
@@ -24,6 +25,7 @@ function App() {
       </main>
 
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
